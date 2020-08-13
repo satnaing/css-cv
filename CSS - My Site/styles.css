@@ -98,16 +98,6 @@ hr {
   line-height: 2rem;
 }
 
-@media only screen and (max-width: 480px) {
-  .profile p {
-    width: 50%;
-  }
-
-  .contact-me p {
-    width: 50%;
-  }
-}
-
 .contact-btn {
   background-color: #66bfbf;
   /* background-image: -webkit-linear-gradient(top, #66bfbf, #6d6d6d);
@@ -164,4 +154,22 @@ hr {
 
 .bottom-container a:hover {
   color: #eaf6f6;
+}
+
+@media only screen and (max-width: 480px) {
+  .profile p {
+    width: 50%;
+  }
+
+  .contact-me p {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 570px) {
+  .top-cloud {
+    position: relative;
+    left: 100px;
+    margin-top: 40px;
+  }
 }
